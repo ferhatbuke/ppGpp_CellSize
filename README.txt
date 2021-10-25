@@ -6,6 +6,9 @@ Models: Contains the models code as they were run for each experiment.
 SiftedData: Contains sifted data used for plotting. Details explained in the analysis file of each experiment
 
 Figures: Explanation of how each figure can be recreated using the shared code and data.
+Start matlab on your device from this folder by running one of the functions. 
+This sets the PATH correctly for all functions below.
+
 ***(see below for explanation for each function requiring this step)
 
 1B -> Raw data and analysis details in the file: "Excel Based\2020-10-05 ppGpp Measurements.xlsx"
@@ -13,7 +16,7 @@ Figures: Explanation of how each figure can be recreated using the shared code a
 1D,E,F, 3E, S1C, S1F, S1G, S2B -> FB_boxPlotDataParser
 	***
 	Run the function on the command line as: 
-	>>'FB_boxPlotDataParser(FitData)'
+	>>FB_boxPlotDataParser(FitData)
 
 1C -> This is a single lineage plotted using the Daughter and Parent identifier for a random 
 	schnitz in the .mat files ("Data" folder). Each schnitz has a Parent found by:
@@ -23,7 +26,7 @@ Figures: Explanation of how each figure can be recreated using the shared code a
 2A, 2B -> FB_LBvsMuandTcyc
 	***
 	-Run the function on the command line as: 
-	>>'FB_LbvsMuandTcyc(FitData)'
+	>>FB_LbvsMuandTcyc(FitData)
 
 2C, 3D, 3G, 3H -> FB_schnitzPlotter_R2ng.m
 	-Run the function directly (Run within editor)
@@ -35,7 +38,7 @@ Figures: Explanation of how each figure can be recreated using the shared code a
 2E -> FB_stabilizationTimerV3
 	***
 	-Run the function on the command line as:  
-	>>'FB_stabilizationTimerV3(FitData)'
+	>>FB_stabilizationTimerV3(FitData)
 
 2F, 3I -> FB_schnitzPlotter_M100uM.m
 	-Run the function directly (Run within editor)
